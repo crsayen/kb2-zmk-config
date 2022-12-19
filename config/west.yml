@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: bobobo1618
+      url-base: https://github.com/bobobo1618
+  projects:
+    - name: zmk
+      remote: bobobo1618
+      revision: oledandcorne
+      import: app/west.yml
+  self:
+    path: config
